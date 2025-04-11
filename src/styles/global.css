@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "vazir";
+  src: url("../assets/font/Vazir.ttf");
+}
+
+@font-face {
+  font-family: "lalezar";
+  src: url("../assets/font/Lalezar.ttf");
+}
+
+.font-vazir {
+  font-family: vazir;
+}
+
+.font-lalezar {
+  font-family: lalezar;
+}
+
+body {
+  @apply h-dvh bg-gradient-to-b container mx-auto p-2 md:px-0 flex flex-col
+          from-slate-100 to-slate-200 text-gray-900
+          dark:from-slate-800 dark:to-slate-900 dark:text-gray-100;
+}

@@ -1,0 +1,78 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+  <header>
+    <h1
+      class="flex justify-center p-2 mb-4 text-center text-2xl font-bold border-b-1"
+      dir="ltr"
+    >
+      <span>R</span>
+      <span>a</span>
+      <span>n</span>
+      <span class="text-gray-600">J</span>
+      <span class="text-gray-500">a</span>
+      <span class="text-gray-400">v</span>
+      <span class="text-gray-300">a</span>
+    </h1>
+  </header>
+  <main class="flex-1 h-full gap-3 overflow-y-scroll">
+    <section class="flex flex-col h-full p-2 items-center justify-center">
+      <h2 class="font-lalezar text-4xl text-center">
+        طراحی و پیاده سازی وبسایت برای برندها و کسب و کارهای کوچک و بزرگ
+      </h2>
+      <a
+        class="flex w-20 justify-center m-2 p-2 font-vazir rounded rounded-tr-2xl rounded-bl-2xl text-gray-100 bg-gray-600 hover:bg-gray-800 hover:-translate-y-1 hover:shadow active:scale-105 transition-all duration-300"
+        href="https://wa.me/+989185535101"
+        target="_blank">تماس</a
+      >
+    </section>
+    <article class="flex flex-col md:flex-row py-2 justify-center gap-2">
+      <section
+        class="w-full md:w-md p-2 bg-gray-500/50 dark:bg-gray-600/50 shadow rounded-2xl"
+      >
+        <p>
+          <h3 class="text-xl font-lalezar">خدمات و ویژگی ها:</h3>
+          <ul>
+            <li class="">تقویت برند از طریق وب سایت جذاب</li>
+            <li>طراحی سازگار برای موبایل، تبلت و...</li>
+            <li>طراحی UX و UI متناسب با برند</li>
+            <li>مدیریت محتوای آسان</li>
+            <li>کدنویسی اختصاصی</li>
+            <li>توسعه آسان</li>
+            <li>طراحی Web App</li>
+          </ul>
+        </p>
+      </section>
+      <section
+        class="w-full md:w-md p-2 bg-gray-500/20 dark:bg-gray-600/20 shadow rounded-2xl"
+      >
+        <p>
+          <h3 class="text-xl font-lalezar">نمونه کارها</h3>
+          <ul>
+            <li>
+              <a class="" href="http://kazhvanclub.com" target="_blank"
+                >باشگاه کوهنوردی و دوچرخه سواری کژوان</a
+              >
+            </li>
+            <li>
+              <a class="" href="http://radiomusicak.com" target="_blank"
+                >رادیو موزیکک</a
+              >
+            </li>
+          </ul>
+        </p>
+      </section>
+    </article>
+  </main>
+  <footer
+    class="flex justify-center p-2 mb-4 text-center text-2xl font-bold border-t-1"
+  >
+    footer
+  </footer>
+</Layout>
